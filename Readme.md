@@ -77,8 +77,6 @@ git reset --soft <IdDoCommit> -> mata o commit, mas coloca o arquivo em staged c
 
 git reset --mixed <IdDoCommit> -> mata o commit, coloca o arquivo em modified com todas as alterações anteriores ao commit, é possível editar o arquivo, commando diff funciona aqui
 
-git reset --hard <IdDoCommit> -> mata o comit e tudo o que foi feito nele, o arquivo volta para o estado do ultimo commit, como se o/os commit/commits anteriores nunca tivessem existido
-
-
-
+git reset --hard <IdDoCommit> -> mata o comit e tudo o que foi feito nele, o arquivo volta para o estado do ultimo commit, como se o/os commit/commits anteriores nunca tivessem existido. Evitar de usar pq ele altera o histórico do git, e se outras pessoas estiverem usando , para 
+obter as alterações só será possível com um force, pq no repositório delas o histórico estará diferente do repositório do git. Pode gerar muitos problemas.
 
