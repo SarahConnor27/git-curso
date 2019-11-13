@@ -78,5 +78,5 @@ git reset --mixed <IdDoCommit> -> mata o commit, coloca o arquivo em modified co
 git reset --hard <IdDoCommit> -> mata o comit e tudo o que foi feito nele, o arquivo volta para o estado do ultimo commit
 
 
-APAGA DAQUI
+APAGA DAQUI kdsakdslakdl sakdsakdl
 
