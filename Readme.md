@@ -78,5 +78,5 @@ git reset --mixed -> mata o commit, coloca o arquivo em modified com todas as al
 git reset --hard -> mata o comit e tudo o que foi feito nele, o arquivo volta para o estado do ultimo commit
 
 
-
+APAGA DAQUI
 
