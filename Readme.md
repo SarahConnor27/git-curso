@@ -71,11 +71,11 @@ git reset HEAD Readme.md
 
 Desfazer após commit:
 
-git reset --soft -> mata o commit, mas coloca o arquivo em staged com todas as modificações anteriores ao commit, prontinho para ser commitado de novo.
+git reset --soft <IdDoCommit> -> mata o commit, mas coloca o arquivo em staged com todas as modificações anteriores ao commit, prontinho para ser commitado de novo.
 
-git reset --mixed -> mata o commit, coloca o arquivo em modified com todas as alterações anteriores ao commit
+git reset --mixed <IdDoCommit> -> mata o commit, coloca o arquivo em modified com todas as alterações anteriores ao commit
 
-git reset --hard -> mata o comit e tudo o que foi feito nele, o arquivo volta para o estado do ultimo commit
+git reset --hard <IdDoCommit> -> mata o comit e tudo o que foi feito nele, o arquivo volta para o estado do ultimo commit
 
 
 APAGA DAQUI
