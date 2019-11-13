@@ -55,6 +55,8 @@ git diff
 git diff --name-only -> somente o nome dos aquivos que foram modificados
 
 
+10) Desfazer coisas
+
 
 
 
