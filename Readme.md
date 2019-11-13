@@ -63,8 +63,19 @@ Retorna o arquivo para antes da edição:
 git checkout Readme.md
 
 
+Se o arquivo já foi adicionado, está no status modified, o comando diff não surte efeito, é preciso voltar o arquivo para o estado anterior
+então o comando é:
 
+git reset HEAD <nomeDoArquivo>
+git reset HEAD Readme.md
 
+Desfazer após commit:
+
+git reset --soft -> mata o commit, mas coloca o arquivo em staged com todas as modificações anteriores ao commit, prontinho para ser commitado de novo.
+
+git reset --mixed -> mata o commit, coloca o arquivo em modified com todas as alterações anteriores ao commit
+
+git reset --hard -> mata o comit e tudo o que foi feito nele, o arquivo volta para o estado do ultimo commit
 
 
 
