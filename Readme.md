@@ -55,9 +55,12 @@ git diff
 git diff --name-only -> somente o nome dos aquivos que foram modificados
 
 
+==========================================
 10) Desfazer coisas
+============================================
 
-
+Retorna o arquivo para antes da edição:
+git checkout Readme.md
 
 
 
