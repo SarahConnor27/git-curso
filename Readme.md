@@ -73,11 +73,11 @@ Desfazer após commit:
 OBS: O COMMIT SERÁ APAGADO, ENTÃO É PRCISO ESCOLER O COMMIT ANTERIOR , POIS ELE DIRÁ PARA QUAL ESTADO O GIT DEVE VOLTAR
 
 
-git reset --soft <IdDoCommit> -> mata o commit, mas coloca o arquivo em staged com todas as modificações anteriores ao commit, prontinho para ser commitado de novo.
+git reset --soft <IdDoCommit> -> mata o commit, mas coloca o arquivo em staged com todas as modificações anteriores ao commit, prontinho para ser commitado de novo, commando diff não funciona aqui.
 
-git reset --mixed <IdDoCommit> -> mata o commit, coloca o arquivo em modified com todas as alterações anteriores ao commit
+git reset --mixed <IdDoCommit> -> mata o commit, coloca o arquivo em modified com todas as alterações anteriores ao commit, é possível editar o arquivo, commando diff funciona aqui
 
-git reset --hard <IdDoCommit> -> mata o comit e tudo o que foi feito nele, o arquivo volta para o estado do ultimo commit
+git reset --hard <IdDoCommit> -> mata o comit e tudo o que foi feito nele, o arquivo volta para o estado do ultimo commit, como se o/os commit/commits anteriores nunca tivessem existido
 
 
 
